@@ -1,0 +1,534 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"delete",
+				"deleteConfrontacio"
+			],
+			[
+				"de",
+				"deleteConfrontacio"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"para",
+				"params"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"mdi",
+				"mdiPencil"
+			],
+			[
+				"cou",
+				"column"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"log",
+				"logOutStore"
+			],
+			[
+				"user",
+				"userKind"
+			],
+			[
+				"sto",
+				"store"
+			],
+			[
+				"get",
+				"getCampanyaActual"
+			],
+			[
+				"has",
+				"has-text-weight-bold"
+			],
+			[
+				"b",
+				"bandol"
+			],
+			[
+				"ba",
+				"bandol"
+			],
+			[
+				"ban",
+				"bandoA"
+			],
+			[
+				"is-",
+				"is-fullwidth"
+			],
+			[
+				"is-s",
+				"is-size-2"
+			],
+			[
+				"pu",
+				"puntuacio"
+			],
+			[
+				"bando",
+				"bandoB"
+			],
+			[
+				"res",
+				"resultB"
+			],
+			[
+				"bata",
+				"batallesOrig"
+			],
+			[
+				"getCon",
+				"getConfrontacionsByTornAcabades"
+			],
+			[
+				"id_",
+				"id_puntuats"
+			],
+			[
+				"puntu",
+				"puntuaConfrontacio"
+			],
+			[
+				"is",
+				"isDisabled"
+			],
+			[
+				"set",
+				"setCampanyaActual"
+			],
+			[
+				"n",
+				"nBandols"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"ge",
+				"generals"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"fin",
+				"finalCounter"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"band",
+				"bando_A"
+			],
+			[
+				"batalles",
+				"batalles_selected"
+			],
+			[
+				"id",
+				"id_batalla"
+			],
+			[
+				"batall",
+				"batalles_selected"
+			],
+			[
+				"pus",
+				"pushConfrontacio"
+			],
+			[
+				"bo",
+				"botonsColumnGrabat"
+			],
+			[
+				"ex",
+				"existControntacio"
+			],
+			[
+				"sel",
+				"batalles_selectables"
+			],
+			[
+				"getC",
+				"getConfrontacionsByTorn"
+			],
+			[
+				"has-",
+				"has-text-centered"
+			],
+			[
+				"st",
+				"start"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"se",
+				"setFinal"
+			],
+			[
+				"es",
+				"esperant"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ma",
+				"mans_usual"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"di",
+				"grouped_display"
+			],
+			[
+				"gru",
+				"grouped_display"
+			],
+			[
+				"bat",
+				"batalles_selectables"
+			],
+			[
+				"by",
+				"byUserA"
+			],
+			[
+				"cal",
+				"calculBando"
+			],
+			[
+				"t",
+				"torns_jugats"
+			],
+			[
+				"cont",
+				"confrontacions"
+			],
+			[
+				"torn",
+				"torns_jugats"
+			],
+			[
+				"to",
+				"torns"
+			],
+			[
+				"p",
+				"punts_bando_B"
+			],
+			[
+				"ju",
+				"jugador_bando_A"
+			],
+			[
+				"pun",
+				"punts_bando_B"
+			],
+			[
+				"punt",
+				"punts_bando_A"
+			],
+			[
+				"Ca",
+				"Campanya"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pro",
+				"program_counter"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"scr",
+				"scroll_program_ltr"
+			],
+			[
+				"sc",
+				"scroll_program_ltr"
+			],
+			[
+				"com",
+				"compareColors"
+			],
+			[
+				"comp",
+				"compareColors"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				" Install Package Control",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/miquel/Code/sac2vue2020"
+	],
+	"file_history":
+	[
+		"/Users/miquel/Code/sac2vue2020/vue.config.js",
+		"/Users/miquel/Code/sac2vue/webpack.config.js",
+		"/Users/miquel/Code/sac2vue/package.json",
+		"/Users/miquel/Code/sac2vue/package-lock.json",
+		"/Users/miquel/Code/saga202/src/views/login.vue",
+		"/Users/miquel/Code/saga202/src/confrontacions.vue",
+		"/Users/miquel/Code/saga202/src/batalles.js",
+		"/Users/miquel/Code/saga202/src/App.vue",
+		"/Users/miquel/Code/saga202/src/main.js",
+		"/Users/miquel/Code/saga202/src/views/HomeView.vue",
+		"/Users/miquel/Code/saga202/src/campanya.vue",
+		"/Users/miquel/Code/saga202/src/router/index.js",
+		"/Users/miquel/Code/saga202/src/defineixCampanya.vue",
+		"/Users/miquel/Code/saga202/src/store/store.js",
+		"/Users/miquel/Code/saga202/babel.config.js",
+		"/Users/miquel/Code/saga202/vue.config.js",
+		"/Users/miquel/Code/saga202/src/afegeixUsers.vue",
+		"/Users/miquel/Code/saga202/src/scss/estil.scss",
+		"/Users/miquel/Code/saga202/src/views/AboutView.vue",
+		"/Users/miquel/Code/saga202/package.json",
+		"/Users/miquel/Code/saga202/src/confrontacions-old.vue",
+		"/Users/miquel/Code/saga202/src/components/HelloWorld.vue",
+		"/Users/miquel/Code/saga202/src/assets/logo.png",
+		"/Users/miquel/Code/saga202/src/assets/logo_invertit.png",
+		"/Users/miquel/Code/saga202/src/campanyes.vue",
+		"/Users/miquel/Code/saga20/src/seleccioBando.vue",
+		"/Users/miquel/Code/saga20/src/campanyes.vue",
+		"/Users/miquel/Code/saga20/src/App.vue",
+		"/Users/miquel/Code/saga20/src/main.js",
+		"/Users/miquel/Code/saga20/src/menu.vue",
+		"/Users/miquel/Code/sagalliga/src/App.vue",
+		"/Users/miquel/python/clock/climateclock-MOD2.py",
+		"/Users/miquel/python/climateclock-MOD2.py",
+		"/Users/miquel/Code/miniColors/src/color.vue",
+		"/Users/miquel/Code/miniColors/src/App.vue",
+		"/Users/miquel/Code/miniColors/src/compareColors.vue"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
