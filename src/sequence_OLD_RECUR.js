@@ -37,9 +37,9 @@ export default function fullSequence()
     //get recursivelly the probability for 1 action
     this.getProbaAction = function(n, teamRerollLeft, DodgeRerollLeft , SurefeetRerollLeft, ProRerollLeft )
     {
-        /*console.log("N", n);
+        console.log("N", n);
         console.log("sequence", this.sequence);
-        console.log("teamRerollLeft", teamRerollLeft);*/
+        console.log("teamRerollLeft", teamRerollLeft);
 
         var p1,p2;
         //no element left
@@ -78,7 +78,7 @@ export default function fullSequence()
             p2 = this.sequence[n].probaYesReroll*this.getProbaAction(n+1, teamRerollLeft, DodgeRerollLeft , false, ProRerollLeft);
         }
         //with team reroll
-        else if(teamRerollLeft > 0)
+        else if(teamRerollLeft == true)
         {
             if( this.sequence[n].canUseProSkill == true && this.sequence[n].doUseProSkill == true && ProRerollLeft ) //use pro skill prior to using the reroll
             {
@@ -88,14 +88,14 @@ export default function fullSequence()
 
                 //pro roll fails but use the reroll
                 //( roll fail )*( pro fail )*( pro succeed )*( roll succeed )* ( rest of the sequence )
-                let pPro2 = (1-this.sequence[n].probaNoReroll)*(1/2)*(1/2)*this.sequence[n].probaNoReroll*this.getProbaAction(n+1, teamRerollLeft-1, DodgeRerollLeft , SurefeetRerollLeft, false);
+                let pPro2 = (1-this.sequence[n].probaNoReroll)*(1/2)*(1/2)*this.sequence[n].probaNoReroll*this.getProbaAction(n+1, false, DodgeRerollLeft , SurefeetRerollLeft, false);
                 p2 = pPro+pPro2;
                 if(  this.sequence[n].isLoner )p2=p2/2;
 
             }
             else //do not use pro unless there is no reroll
             {
-                p2 = this.sequence[n].probaYesReroll*this.getProbaAction(n+1, teamRerollLeft-1, DodgeRerollLeft , SurefeetRerollLeft, ProRerollLeft);
+                p2 = this.sequence[n].probaYesReroll*this.getProbaAction(n+1, false, DodgeRerollLeft , SurefeetRerollLeft, ProRerollLeft);
                 if(  this.sequence[n].isLoner )p2=p2/2;
             }
         }
@@ -137,18 +137,14 @@ export default function fullSequence()
 
     this.getProba = function()
     {
-        for (let f=0; f<=this.sequence.length; f++){
-            let r = this.getProbaReroll2(f);
-            let noReRoll =  Math.round(r*100000)/1000;
-            if(noReRoll <=0)noReRoll = r;
-            console.log("RR "+f, noReRoll);
-        }
-        /*
+        let r = this.getProbaReroll2(false);
+        let noReRoll =  Math.round(r*100000)/1000;
+        if(noReRoll <=0)noReRoll = r;
+
         let rr = this.getProbaReroll2(true);
         let reRoll =  Math.round(rr*100000)/1000;
         if(reRoll <=0)reRoll = rr;
 
         return {reRoll: reRoll, noReRoll: noReRoll, nActions: this.sequence.length, actions: this.sequence};
-        */
     }
 }
