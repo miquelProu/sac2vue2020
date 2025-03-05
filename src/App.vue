@@ -14,27 +14,14 @@
             </div>
         </div>
         <div class="container">
-            <div class="columns">
-                <div class="column  is-half">
-                    <div class="columns is-mobile" v-if="result">
-                        <div class="column">
-                            <h2>Probabilitat sense reroll</h2>
-                            <div id="probaNoReroll" >{{result.noReRoll}}%</div>
-                        </div>
-                        <div class="column">
-                            <h2>Probabilitat amb reroll</h2>
-                            <div id="probaYesReroll" >{{result.reRoll}}%</div>
-                        </div>
-                        <div class="column">
-                            <div class="buttons">
-                            <button class="button is-small is-danger is-outlined" @click="cleanSequence">Reset</button>
-                            <button class="button is-small xis-info viewprecent" :class="{'selected': (pintaSeq != null)}" @click="finsSeq(sequencia.length - 2);">%</button>
-                            </div>
-                        </div>
+            <div class="columns is-mobile">
+                 <div class="column  is-one-quarter">
+                    <div class="buttons">
+                        <button class="button is-small is-danger is-outlined" @click="cleanSequence">Reset</button>
+                        <button class="button is-small xis-info viewprecent" :class="{'selected': (pintaSeq != null)}" @click="finsSeq(sequencia.length - 2);">%</button>
                     </div>
-
-                </div>
-                <div class="column">
+                 </div>
+                  <div class="column">
                     <h2 class="playerSkill" @click="showPlayerSkills = !showPlayerSkills">Habilitats <span class="arrow-down"></span></h2>
 
                     <boto :options="playerOptions"
@@ -48,6 +35,19 @@
                           v-if="showPlayerSkills"
                     ></boto>
                 </div>
+            </div>
+            <div class="columns">
+                <div class="column  is-half">
+                    <div class="columns is-mobile" v-if="result">
+
+                        <div class="column" v-for="(item, index) in result.reRoll" :class="{'is-one-fifth': (index < 2)}">
+                            <h2>RR{{index}}</h2>
+                            <div id="probaNoReroll" >{{item}}%</div>
+                        </div>
+                    </div>
+
+                </div>
+                
 
             </div>
         </div>
